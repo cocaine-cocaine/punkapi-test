@@ -1,0 +1,7 @@
+.wishLi {
+    width: 180px;
+    /* padding-right: 10px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+}

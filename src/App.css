@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.leftSide {
+  width: 250px;
+  min-height: 900px;
+  background-color: #f4f6f8;
+  border-radius: 5px;
+  margin: 10px;
+}
+.rightSide {
+  width: 800px;
+  margin: 10px
+}
+.wrapperGoods {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.paginateBtns {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.paginateBtns a {
+  padding: 10px;
+  margin: 8px;
+  font-weight: bold;
+  color: white;
+  background-color: #10a8a7;
+  border-radius: 5px;
+  border: 1px solid
+}
+.wrapOfWish {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: row;
+}
+.wishLabel {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.wishUl {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  list-style-position: inside;
+}

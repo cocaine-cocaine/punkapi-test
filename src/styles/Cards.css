@@ -1,0 +1,43 @@
+button { border: none; outline: none; }
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;
+  padding: 10px 10px 5px 10px;
+  min-height: 380px;
+  margin: 0px 10px 10px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.2);
+}
+.imgWrap {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgOfCard {
+    height: 180px;
+}
+.btnAddWrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px 10px 10px 10px;
+}
+.btnAdd {    
+    width: 225px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #10a8a7;
+    color: white
+}
+.btnDisable {
+    width: 225px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #10a8a7;
+    color: white
+}
